@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Delivery Sharing App</string>
+
+    <string name="tool_editProfile">정보 수정하기</string>
+    <string name="id">아이디</string>
+    <string name="pw">비밀번호</string>
+    <string name="name">이름</string>
+    <string name="nickname">닉네임</string>
+    <string name="telNum">전화번호</string>
+    <string name="email">이메일</string>
+    <string name="address">주소</string>
+    <string name="edit">수정하기</string>
+    <string name="change">변경하기</string>
+    <string name="check">중복확인</string>
+    <string name="gender">성별</string>
+    <string name="woman">여자</string>
+    <string name="man">남자</string>
+    <string name="others_profile">닉네임</string>
+    <string name="chat_list">내역</string>
+    <string name="edit_profile">정보 수정하기</string>
+    <string name="change_profile_image">프로필 수정하기</string>
+    <string name="warning_list">누적 경고 내역</string>
+</resources>

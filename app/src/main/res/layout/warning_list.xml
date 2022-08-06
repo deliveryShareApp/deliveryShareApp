@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/editProfile"
+        android:background="@color/white"
+        app:contentInsetStart="0dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/warning_list"
+            style="@style/boldFontStyle"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:background="#a0a0a0"
+        android:layout_width="match_parent"
+        android:layout_height="2px" />
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="누적 경고 3회: 2주 이용 제한"
+        style="@style/basicFontStyle"/>
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="21dp"
+        android:text="경고 날짜: 2022년 7월 11일"
+        style="@style/editFontStyle"/>
+
+    <View
+        android:background="#a0a0a0"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="2px" />
+
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="사유: 욕설"
+        style="@style/basicFontStyle"/>
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="21dp"
+        android:text="경고 날짜: 2022년 7월 11일"
+        style="@style/editFontStyle"/>
+
+    <View
+        android:background="#a0a0a0"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="2px" />
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="사유: 사기"
+        style="@style/basicFontStyle"/>
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="21dp"
+        android:text="경고 날짜: 2022년 7월 11일"
+        style="@style/editFontStyle"/>
+
+    <View
+        android:background="#a0a0a0"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="2px" />
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="사유: 욕설"
+        style="@style/basicFontStyle"/>
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="21dp"
+        android:text="경고 날짜: 2022년 7월 11일"
+        style="@style/editFontStyle"/>
+
+    <View
+        android:background="#a0a0a0"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="2px" />
+
+</LinearLayout>
