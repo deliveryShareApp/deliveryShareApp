@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExampleCode</string>
+
+    <!-- Main -->
+    <string name="my_location">돈암동</string>
+    <string name="set_location">내 동네 설정</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
